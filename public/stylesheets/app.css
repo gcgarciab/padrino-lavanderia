@@ -1,0 +1,108 @@
+body {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+  body #navigation {
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box; }
+    body #navigation .menu {
+      padding: 0;
+      margin: 0;
+      vertical-align: middle;
+      float: right;
+      display: inline-block; }
+      body #navigation .menu .menu-list {
+        display: inline-block;
+        margin: 20px; }
+    body #navigation .navbar-brand {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+      vertical-align: middle; }
+      body #navigation .navbar-brand .logo-default {
+        max-width: 100%;
+        max-height: 100%; }
+
+.wraper {
+  background-image: url("/images/imagen_wraper.jpg");
+  background-size: cover;
+  background-position: bottom;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  box-sizing: border-box; }
+  .wraper #intro {
+    box-sizing: border-box; }
+    .wraper #intro .intro-area {
+      text-align: center;
+      margin: 20px; }
+      .wraper #intro .intro-area .area {
+        box-sizing: border-box;
+        display: block; }
+      .wraper #intro .intro-area .logo-intro {
+        width: 180px; }
+      .wraper #intro .intro-area .slogan {
+        margin: 5px; }
+    .wraper #intro .pedir-domicilio {
+      text-align: center;
+      width: 100%;
+      display: block;
+      box-sizing: border-box;
+      padding: 20px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.3); }
+      .wraper #intro .pedir-domicilio .domicilio {
+        border: none;
+        background: #3a7999;
+        color: #fff;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 500ms ease; }
+
+.steps {
+  text-align: center;
+  width: 100%;
+  margin: 0; }
+  .steps .step-single {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    padding: 10px; }
+    .steps .step-single .step-image {
+      width: 100%;
+      height: 100%; }
+
+footer {
+  position: relative;
+  padding: 100px; }
+  footer #company {
+    width: 100%;
+    display: block; }
+    footer #company .about-us, footer #company .our-services {
+      display: inline-block;
+      width: 45%;
+      vertical-align: top; }
+      footer #company .about-us ul, footer #company .our-services ul {
+        display: block;
+        padding: 0;
+        margin: 5px; }
+        footer #company .about-us ul li, footer #company .our-services ul li {
+          padding: 5px;
+          list-style: none;
+          display: list-item; }
+    footer #company .our-services .services {
+      display: inline-block; }
+  footer a {
+    text-decoration: none; }
+
+/*# sourceMappingURL=app.css.map */

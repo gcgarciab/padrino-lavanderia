@@ -1,0 +1,49 @@
+%html
+  %head
+    %title hola
+    =stylesheet_link_tag :app
+  %body
+    %div#navigation
+      %a.navbar-brand
+        %img.logo-default{:src =>"/images/logo.png" }
+      %ul.menu
+        %li.menu-list
+          %a{:href => "/"}
+            Sign Up
+        %li.menu-list
+          %a{:href => "/"}
+            Sign In
+    =yield
+
+    %footer
+      %div#company
+        %div.about-us
+          %ul
+            %li
+              %a{:href => "/"}
+                FAQ
+            %li
+              %a{:href => "/"}
+                Precios
+            %li
+              %a{:href => "/"}
+                Terminos del Servicio
+            %li
+              %a{:href => "/"}
+                Politica de Privacidad
+
+        %div.our-services
+          %div.services
+            %ul
+              %li
+                %a{:href => "/"}
+                  Servicios
+              %li
+                %a{:href => "/"}
+                  Dry Cleaning
+              %li
+                %a{:href => "/"}
+                  Laundered Shirts
+              %li
+                %a{:href => "/"}
+                  Wash and Fold
