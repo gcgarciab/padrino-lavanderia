@@ -1,7 +1,12 @@
-Lavanderia::App.controllers :base, map: '/' do
+Lavanderia::App.controllers :auth do
+  layout :session
 
-  get :index do
-    render :index
+  get :signin do
+    render :sign_in
+  end
+
+  get :register do
+    render :register
   end
 
   # get :index, :map => '/foo/bar' do

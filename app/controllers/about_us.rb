@@ -1,9 +1,9 @@
-Lavanderia::App.controllers :base, map: '/' do
+Lavanderia::App.controllers :about_us do
+  layout :about_us
 
-  get :index do
-    render :index
+  get :services do
+    render :services
   end
-
   # get :index, :map => '/foo/bar' do
   #   session[:foo] = 'bar'
   #   render 'index'

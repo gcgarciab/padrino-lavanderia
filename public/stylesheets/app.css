@@ -1,3 +1,6 @@
+a {
+  text-decoration: none; }
+
 body {
   background: #000;
   color: #fff;
@@ -84,25 +87,34 @@ body {
 
 footer {
   position: relative;
-  padding: 100px; }
+  padding: 40px;
+  box-sizing: border-box; }
   footer #company {
     width: 100%;
-    display: block; }
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box; }
     footer #company .about-us, footer #company .our-services {
       display: inline-block;
       width: 45%;
-      vertical-align: top; }
+      vertical-align: top;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-left: 40px; }
       footer #company .about-us ul, footer #company .our-services ul {
         display: block;
         padding: 0;
-        margin: 5px; }
+        margin: 10px;
+        box-sizing: border-box; }
         footer #company .about-us ul li, footer #company .our-services ul li {
           padding: 5px;
           list-style: none;
-          display: list-item; }
+          display: list-item;
+          box-sizing: border-box; }
     footer #company .our-services .services {
       display: inline-block; }
-  footer a {
-    text-decoration: none; }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,3 +1,14 @@
+%div#navigation
+  %a.navbar-brand
+    %img.logo-default{:src =>"/images/logo.png" }
+  %ul.menu
+    %li.menu-list
+      %a{:href => url(:auth, :register)}
+        Register
+    %li.menu-list
+      %a{:href => url(:auth, :signin)}
+        Sign In
+
 %div.wraper
   %div#intro
     %div.intro-area
@@ -9,13 +20,11 @@
     %div.pedir-domicilio
       %button.domicilio
         Domicilio
-          
+
 %div.steps
   %h2
-    %span
-      3 Simples pasos
-  %h3
-    Otro slogan
+    %span 3 Simples pasos
+  %h3 Otro slogan
   %div.step-single
     %img.step-image{:src =>"/images/step_1.jpg" }
   %div.step-single

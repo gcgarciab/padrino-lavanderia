@@ -1,0 +1,12 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+  body .wraper {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; }
+    body .wraper .logo-signin {
+      width: 100px; }
+
+/*# sourceMappingURL=session.css.map */

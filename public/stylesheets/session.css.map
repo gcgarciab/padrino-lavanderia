@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,UAAU,ECHH,IAAI;EDIX,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EAEV,YAAO;IACL,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,UAAU;IACtB,UAAU,EAAE,MAAM;IAElB,yBAAY;MACV,KAAK,EAAE,KAAK",
+"sources": ["../../app/stylesheets/session.sass","../../app/stylesheets/_variables.sass"],
+"names": [],
+"file": "session.css"
+}

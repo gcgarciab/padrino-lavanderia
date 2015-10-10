@@ -6,6 +6,7 @@ module Lavanderia
 
     enable :sessions
     layout :app
+
     ##
     # Caching support.
     #
