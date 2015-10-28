@@ -1,30 +1,6 @@
 %html
   %head
     %title Lavanderia
-    =stylesheet_link_tag :services
+    =stylesheet_link_tag :terms
   %body
     =yield
-
-    %footer
-      %div#company
-        %div.about-us
-          %ul
-            %li
-              %a{:href => "/"}FAQ
-            %li
-              %a{:href => "/"}Precios
-            %li
-              %a{:href => "/"}Terminos del Servicio
-            %li
-              %a{:href => "/"}Politica de Privacidad
-        %div.our-services
-          %div.services
-            %ul
-              %li
-                %a{:href => url(:auth, :register)}Servicios
-              %li
-                %a{:href => "/"}Dry Cleaning
-              %li
-                %a{:href => "/"}Laundered Shirts
-              %li
-                %a{:href => "/"}Wash and Fold

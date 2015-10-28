@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,UAAU,ECAC,OAAO;EDClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EAEV,eAAU;IACR,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,UAAU;IACtB,OAAO,EAAE,IAAI;IAEb,2BAAW;MACT,UAAU,EAAE,IAAI;MAChB,YAAY,EAAE,IAAI",
+"sources": ["../../app/stylesheets/terms.sass","../../app/stylesheets/_variables.sass"],
+"names": [],
+"file": "terms.css"
+}

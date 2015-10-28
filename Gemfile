@@ -8,6 +8,9 @@ gem 'rake'
 gem 'sass'
 gem 'haml'
 gem 'mongoid', '~>3.0.0'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv'
 
 # Test requirements
 

@@ -12,19 +12,20 @@
             %li
               %a{:href => "/"}FAQ
             %li
-              %a{:href => "/"}Precios
+              %a{:href => url(:about_us, :prices)}Precios
             %li
-              %a{:href => "/"}Terminos del Servicio
+              %a{:href => url(:about_us, :terms)}Terminos del Servicio
             %li
               %a{:href => "/"}Politica de Privacidad
+
         %div.our-services
           %div.services
             %ul
               %li
-                %a{:href => url(:auth, :register)}Servicios
+                %a{:href => url(:services, :serv)}Servicios
               %li
-                %a{:href => "/"}Dry Cleaning
+                %a{:href => url(:services, :serv)}Dry Cleaning
               %li
-                %a{:href => "/"}Laundered Shirts
+                %a{:href => url(:services, :serv)}Laundered Shirts
               %li
-                %a{:href => "/"}Wash and Fold
+                %a{:href => url(:services, :serv)}Wash and Fold

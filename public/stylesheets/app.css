@@ -114,7 +114,7 @@ footer {
           list-style: none;
           display: list-item;
           box-sizing: border-box; }
-    footer #company .our-services .services {
-      display: inline-block; }
+      footer #company .about-us .services, footer #company .our-services .services {
+        display: inline-block; }
 
 /*# sourceMappingURL=app.css.map */
